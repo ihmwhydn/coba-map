@@ -10,6 +10,19 @@ html body {
   font-family: 'Poppins', sans-serif;
 }
 
+.border-top-cstm {
+  border-radius: 25px 25px 0px 0px;
+}
+
+.border-btm-cstm {
+  border-radius: 0px 0px 20px 20px;
+}
+
+.shadow-top-cstm {
+  -webkit-box-shadow: 0 0 2px 2px rgba(109, 109, 109, 0.158);
+          box-shadow: 0 0 2px 2px rgba(109, 109, 109, 0.158);
+}
+
 .small, small {
   font-size: .775em;
 }

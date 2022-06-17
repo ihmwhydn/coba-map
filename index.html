@@ -15,6 +15,10 @@
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="css/mdb.min.css" />
   <link rel="stylesheet" href="custom/scss/custom.css">
@@ -49,8 +53,8 @@
     </nav>
 
     <div class="sticky-top d-sm-none">
-      <div class="bg-white py-3 shadow-sm">
-        <p class="mb-0 text-info fw-bold text-center">Pilih Lokasi Gedung Anda Saat Ini</p>
+      <div class="bg-white py-3 shadow-sm border-btm-cstm">
+        <p class="small mb-0 text-info fw-bold text-center animate__animated animate__flash animate__slow animate__infinite">Pilih Lokasi Gedung Anda Saat Ini</p>
       </div>
     </div>
     <div id="konten" class="mt-4 margin-bottom-cstm">
@@ -120,14 +124,21 @@
             </div>
           </div>
         </div>
-        <div class="konten-partner bg-white py-3 rounded shadow-sm mb-4">
-          <a class="ripple" href="#!">
-            <img
-              alt="example"
-              class="img-fluid rounded"
-              src="img/germas.png"
-            />
-          </a>
+        <div class="konten-partner bg-white py-2 rounded shadow-sm mb-4">
+          <div class="row justify-content-center">
+            <div class="col-10">
+              <a class="ripple" href="#!">
+                <img
+                  alt="example"
+                  class="img-fluid rounded"
+                  src="img/germas.png"
+                />
+              </a>
+            </div>
+            <div class="col-6">
+
+            </div>
+          </div>
         </div>
         <div class="konten-2 mb-3">
           <div class="head d-flex justify-content-between align-items-center mb-2">
@@ -214,7 +225,7 @@
     </div>
 
 
-    <div class="nav-bottom bg-white fixed-bottom d-sm-none border-top rounded-top shadow w-100 py-1 mb-0">
+    <div class="nav-bottom bg-white fixed-bottom d-sm-none border-top-cstm shadow-top-cstm w-100 py-1 mb-0">
       <div class="row">
         <div class="col-6">
           <a class="nav-link text-center active" aria-current="page" href="#">

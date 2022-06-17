@@ -4,12 +4,20 @@
 
 $primary-color: rgb(133, 255, 241);
 
+html {
+  body {
+    transition: all ease-in-out .3s;
+    background: rgb(241, 250, 255);
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
 .small, small {
   font-size: .775em;
 }
 
 .txt-shdw {
-  text-shadow: 2px 2px #6d6d6d;
+  text-shadow: 2px 2px #a3a3a3;
 }
 
 .swiper-pagination-bullet-active {
@@ -18,7 +26,7 @@ $primary-color: rgb(133, 255, 241);
 }
 
 .btn-group-sm>.btn, .btn-sm {
-  padding: 0.5rem 1rem;
+  padding: 0.2rem 1rem;
   border-radius: 1.2rem;
 }
 
@@ -31,19 +39,11 @@ $primary-color: rgb(133, 255, 241);
 }
 
 .btn-trnsprnt {
-  background: rgb(213, 255, 250);
+  background: rgb(0, 255, 225);
 }
 
 .margin-bottom-cstm {
   margin-bottom: 100px;
-}
-
-html {
-  body {
-    transition: all ease-in-out .3s;
-    background: rgb(243, 251, 255);
-    font-family: 'Poppins', sans-serif;
-  }
 }
 
 .swiper-pagination {
